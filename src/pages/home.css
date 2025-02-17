@@ -1,0 +1,80 @@
+/* Positionera hela home-sektionen */
+.home-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; /* Flytta texten till vänster */
+    min-height: 100vh;
+    padding: 50px;
+    color: #ffffff;
+    overflow: hidden;
+  }
+  
+  /* Video Bakgrund */
+  .video-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: -1;
+    overflow: hidden;
+  }
+  
+  .video-background video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.3; /* Justera genomskinlighet om du vill */
+  }
+  
+  /* Content över videon */
+  .home-content {
+    position: relative;
+    max-width: 600px;
+    text-align: left; /* All text vänsterjusterad */
+  }
+  
+  .home-content h1 {
+    font-size: 3rem;
+    color: #64ffda;
+  }
+  
+  .home-content h2 {
+    font-size: 2rem;
+    margin-top: 10px;
+    color: #ffffff;
+  }
+  
+  .home-content p {
+    font-size: 1.2rem;
+    margin-top: 15px;
+    line-height: 1.6;
+  }
+  
+  .buttons {
+    margin-top: 20px;
+  }
+  
+  button {
+    background-color: #64ffda;
+    color: #0a192f;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  .secondary-btn {
+    background-color: transparent;
+    color: #64ffda;
+    border: 2px solid #64ffda;
+  }
+  
+  button:hover {
+    background-color: #ffffff;
+    color: #0a192f;
+  }
+  

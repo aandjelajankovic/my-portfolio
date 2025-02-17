@@ -1,0 +1,29 @@
+.navbar {
+    background: rgba(17, 34, 64, 0.9); /* Lätt genomskinlig mörkblå */
+    padding: 15px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    position: fixed; /* Fixad högst upp */
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  .navbar a {
+    text-decoration: none;
+    color: #64ffda;
+    font-weight: bold;
+    font-size: 1.2rem;
+    transition: color 0.3s ease-in-out, transform 0.2s;
+    padding: 10px;
+  }
+  
+  .navbar a:hover {
+    color: #ffffff;
+    transform: scale(1.1);
+  }
+  
