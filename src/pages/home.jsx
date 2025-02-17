@@ -1,4 +1,4 @@
-import "./Home.css";
+import "./home.css";
 import { Typewriter } from "react-simple-typewriter";
 
 function Home() {
