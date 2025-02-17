@@ -3,7 +3,7 @@
 This is my personal portfolio website built with **React** and **Vite**. It showcases my web development projects, skills, and contact information.
 
 ## 🚀 Live Demo
-👉 [View Portfolio]((https://andjelajankovic.netlify.app))
+👉 https://andjelajankovic.netlify.app
 
 ---
 
