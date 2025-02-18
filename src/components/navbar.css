@@ -1,11 +1,11 @@
 .navbar {
-    background: rgba(17, 34, 64, 0.9); /* Lätt genomskinlig mörkblå */
+    background: rgba(17, 34, 64, 0.9); 
     padding: 15px 20px;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 30px;
-    position: fixed; /* Fixad högst upp */
+    position: fixed; 
     top: 0;
     left: 0;
     width: 100%;

@@ -34,6 +34,18 @@ function Projects() {
         </div>
 
         <div className="project-card">
+        <h2>SL Fulfillment</h2>
+        <p>
+        A professional, informative website for a fulfillment company. 
+        The site provides clear pricing and service details, ensuring transparency for potential customers.  
+        The design focuses on user experience and easy navigation.
+        </p>
+        <a href="https://www.sl-fulfillment.com" target="_blank" rel="noopener noreferrer">
+          View Project
+        </a>
+      </div>
+
+        <div className="project-card">
           <h2>Web Project focusing on Accesibility</h2>
           <p>
           A web project focusing on accessibility and WCAG compliance, designed for a transportation service

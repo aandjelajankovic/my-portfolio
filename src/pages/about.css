@@ -3,7 +3,7 @@
     max-width: 800px;
     margin: 50px auto;
     padding: 30px;
-    background: #112240; /* Mörkare blå */
+    background: #112240; 
     border-radius: 10px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
   }
@@ -35,8 +35,7 @@
     color: #64ffda;
     margin-top: 30px;
   }
-  
-  /* Skills */
+
   .skills-grid {
     display: flex;
     flex-wrap: wrap;
@@ -71,7 +70,6 @@
     color: #ccd6f6;
   }
   
-  /* Language section */
   .language-list {
     display: flex;
     flex-wrap: wrap;
