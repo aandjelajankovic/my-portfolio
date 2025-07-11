@@ -10,17 +10,19 @@ function Projects() {
         CSS, and JavaScript – no frameworks, no templates, just raw code.  
       </p>
       <p>
-        I'm also working on a **Shopify e-commerce website**, which will be displayed here once it's live.
+        I'm also working on a <strong>Shopify e-commerce website</strong>, which is now live and showcased below.
       </p>
 
       <div className="projects-grid">
         {/* Shopify Webshop (Not online yet) */}
-        <div className="project-card upcoming">
+        <div className="project-card">
           <h2>Shopify E-Commerce Website</h2>
           <p>
-            Currently working on a Shopify webshop. As soon as it's live, I will showcase it here!
+            A fully functioning webshop where you can purchase beautiful plants online. 
+            Built with Shopify and optimized for responsive design and a seamless user experience.
           </p>
-          <span className="status">Coming Soon</span>
+          <a href="https://florasilva.com" target="_blank" rel="noopener noreferrer">View Project</a>
+          
         </div>
 
         {/* School Projects */}
