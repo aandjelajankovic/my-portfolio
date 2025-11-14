@@ -31,8 +31,8 @@ function App() {
                 
       <footer className="footer">
         <p>
-          <span className="footer-icon">👩‍💻</span> Designed & built by Andjela |  
-          <a href="https://github.com/yourgithub" target="_blank" rel="noopener noreferrer">
+          <span className="footer-icon">👩‍💻</span> © 2025 Andjela Jankovic — Built with React. |  
+          <a href="https://github.com/aandjelajankovic" target="_blank" rel="noopener noreferrer">
             GitHub
           </a>
         </p>

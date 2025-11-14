@@ -12,7 +12,7 @@ function Contact() {
       <div className="contact-info">
         <p><strong>Email:</strong> jankovic.andjela@outlook.com</p>
         <p>
-          <a href="https://github.com/aandjelajankovic" target="_blank" rel="noopener noreferrer">GitHub</a> |  
+          <a href="https://github.com/arlaspresident" target="_blank" rel="noopener noreferrer">GitHub</a> |  
           <a href="https://linkedin.com/in/jankovicandjela" target="_blank" rel="noopener noreferrer"> LinkedIn</a>
         </p>
       </div>

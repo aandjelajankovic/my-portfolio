@@ -5,71 +5,90 @@ function Projects() {
     <div className="projects-container">
       <h1>Projects</h1>
       <p>
-        Since I'm currently studying web development, this portfolio showcases some of the projects 
-        I’ve built during my education. Everything was created from scratch, using only pure HTML, 
-        CSS, and JavaScript – no frameworks, no templates, just raw code.  
-      </p>
-      <p>
-        I'm also working on a **Shopify e-commerce website**, which will be displayed here once it's live.
+        A selection of independent and client-based projects showcasing my
+        experience in full-stack development, UX, and modern web technologies.
+        Each project has been designed and built from scratch, with a focus on
+        functionality, scalability, and user-centered design.
       </p>
 
       <div className="projects-grid">
-        {/* Shopify Webshop (Not online yet) */}
-        <div className="project-card upcoming">
-          <h2>Shopify E-Commerce Website</h2>
+        {/* SL-APP */}
+        <div className="project-card">
+          <h2>SL-APP</h2>
           <p>
-            Currently working on a Shopify webshop. As soon as it's live, I will showcase it here!
+            A private time tracking and goods receipt system built for a logistics
+            company in Germany. Developed with React, Express, and PostgreSQL.
+            Includes admin dashboard, CSV export, and authentication logic.
+            Due to company confidentiality, this project cannot be made public.
           </p>
-          <span className="status">Coming Soon</span>
+          <span className="status private">Private Project</span>
         </div>
 
-        {/* School Projects */}
+        {/* OneGift */}
         <div className="project-card">
-          <h2>Twelve Rentals</h2>
+          <h2>OneGift</h2>
           <p>
-          A fully responsive website for an apartment rental business in Cyprus.
-          Built entirely with pure HTML, CSS, and JavaScript, without any frameworks. The main rental platform is fully functional (only viewing of the apartments), but an additional feature allowing guests to pre-order items for their arrival is still under development.
+            A personal side project for a B2B gift platform. Initially built from
+            scratch using HTML, CSS, and JavaScript, but later migrated to
+            WordPress for easier management. Since it’s a personal concept still
+            under experimentation, development has not progressed far, and the
+            final tech stack is still being decided.
           </p>
-          <a href="http://studenter.miun.se/~anja2401/dt200g/projekt/index.html" target="_blank" rel="noopener noreferrer">View Project</a>
+          <a
+            href="https://github.com/arlaspresident/onegift"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            View on GitHub
+          </a>
         </div>
 
+        {/* CyprusDeals */}
         <div className="project-card">
-        <h2>SL Fulfillment</h2>
-        <p>
-        A professional, informative website for a fulfillment company. 
-        The site provides clear pricing and service details, ensuring transparency for potential customers.  
-        The design focuses on user experience and easy navigation.
-        </p>
-        <a href="https://www.sl-fulfillment.com" target="_blank" rel="noopener noreferrer">
-          View Project
-        </a>
-      </div>
-
-        <div className="project-card">
-          <h2>Web Project focusing on Accesibility</h2>
+          <h2>CyprusDeals</h2>
           <p>
-          A web project focusing on accessibility and WCAG compliance, designed for a transportation service
-            This project focused on improving contrast, keyboard navigation, and screen reader support.
+            An ongoing project inspired by Prisjakt, designed for the Cypriot
+            market. The goal is to create a platform that compares local product
+            prices and showcases real-time deals from online retailers.
+            Currently focusing on UI and data structure before implementing
+            backend API integration.
           </p>
-          <a href="http://studenter.miun.se/~anja2401/dt068g/moment3/index.html">View Website</a>
+          <a
+            href="https://github.com/arlaspresident/cyprusdeals"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            View on GitHub
+          </a>
         </div>
 
+        {/* SL Fulfillment Website */}
         <div className="project-card">
-          <h2>To-Do List App</h2>
+          <h2>SL Fulfillment Website</h2>
           <p>
-            A simple task management app using vanilla JavaScript and local storage. 
-            No libraries, no frameworks – just clean, efficient code.
+            The official website for SL Fulfillment GmbH, developed in WordPress.
+            The site communicates the company’s logistics and fulfillment
+            services with a professional layout, SEO optimization, and clear
+            pricing structure.
           </p>
-          <a href="http://studenter.miun.se/~anja2401/dt084g/todo-list/">View Website</a>
+          <a
+            href="https://www.sl-fulfillment.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Visit Website
+          </a>
         </div>
+
+        {/* Flora Silva Shopify Store */}
         <div className="project-card">
-          <h2>Sveriges Radio API App</h2>
+          <h2>Flora Silva Shopify Store</h2>
           <p>
-            A web application that fetches radio programs from the Sveriges Radio API 
-            and dynamically displays them based on user selection. Users can choose how many 
-            programs to load, and previously fetched data is cleared before new results are displayed.
+            A Shopify-based online store for plants and botanical home decor.
+            The webshop was fully developed and functional, featuring custom
+            Liquid templates, product filtering, and optimized checkout.
+            The store has since been closed at the owner’s request.
           </p>
-          <a href="http://studenter.miun.se/~anja2401/dt084g/sr%20api/">View Website</a> 
         </div>
       </div>
     </div>
